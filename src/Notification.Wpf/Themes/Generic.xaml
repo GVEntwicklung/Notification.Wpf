@@ -171,6 +171,7 @@
                            Background="{TemplateBinding Background}"
                            HorizontalContentAlignment="Center"
                            MinWidth="80"  MaxWidth="120"
+                           Padding="4"
                            BorderBrush="{TemplateBinding Foreground, Converter={converters:ColorAlphaConverter}}"
                            BorderThickness="1"/>
                     <ControlTemplate.Triggers>
