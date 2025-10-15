@@ -47,7 +47,9 @@
       <PackagePath></PackagePath>
       <!--Полный путь к директории где файл-->
       <Pack>True</Pack>
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>Never</CopyToPublishDirectory>
+      <ExcludeFromSingleFile>True</ExcludeFromSingleFile>
     </Content>
   </ItemGroup>
 
