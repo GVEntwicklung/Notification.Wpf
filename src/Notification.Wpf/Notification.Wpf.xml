@@ -1179,15 +1179,6 @@
             <param name="c">The culture to use in the converter.</param>
             <returns>The converted value.</returns>
         </member>
-        <member name="T:Notification.Wpf.Combine">
-            <summary>Конвертер, последовательно комбинирующий действия двух других конвертеров</summary>
-        </member>
-        <member name="P:Notification.Wpf.Combine.First">
-            <summary>Первый применяемый конвертер</summary>
-        </member>
-        <member name="P:Notification.Wpf.Combine.Then">
-            <summary>Второй применяемый конвертер</summary>
-        </member>
         <member name="M:Notification.Wpf.DoubleValueConverter.Convert(System.Object,System.Type,System.Object,System.Globalization.CultureInfo)">
             <inheritdoc />
         </member>

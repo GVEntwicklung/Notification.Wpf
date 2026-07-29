@@ -7,15 +7,12 @@ using Notifications.Wpf.Annotations;
 
 namespace Notification.Wpf
 {
-    /// <summary>Конвертер, последовательно комбинирующий действия двух других конвертеров</summary>
     [MarkupExtensionReturnType(typeof(Combine))]
     internal class Combine : ValueConverter
     {
-        /// <summary>Первый применяемый конвертер</summary>
         [CanBeNull]
         public IValueConverter First { get; set; }
 
-        /// <summary>Второй применяемый конвертер</summary>
         [CanBeNull]
         public IValueConverter Then { get; set; }
 
